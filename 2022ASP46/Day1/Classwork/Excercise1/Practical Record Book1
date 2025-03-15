@@ -1,0 +1,17 @@
+Date:12.03.2025
+
+Practical Number: 01
+
+Implementation: class Myfirstjavaprogram
+{
+	public static void main(String[] args)
+	{
+		System.out.println("My First Program in Java");
+		System.out.println("Hello Java Developer!!!");
+	}
+}
+
+Output: My First Program in Java
+        Hello Java Developer!!!
+
+Conclusion:I have learnt how to get output in java.
