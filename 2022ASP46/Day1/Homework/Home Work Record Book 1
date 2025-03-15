@@ -1,0 +1,92 @@
+date : 12.03.2025
+
+Practical Number : 08
+
+Problem Specification : How to use the Operators in Java Programming.
+
+Implementation:
+class Homework1
+{
+	public static void main(String[] args)
+	{
+		int a = 30;
+		int b = 20;
+		int c = 15;
+		int d = 20;
+		String Result;
+		
+		System.out.println();
+		
+		System.out.println("Assignment Operation: ");
+		System.out.println();
+		
+		System.out.println("Integer a value is = " +a);
+		System.out.println("Integer b value is = " +b);
+		System.out.println("Integer c value is = " +c);
+		System.out.println("Integer d value is = " +d);
+		System.out.println();
+		
+		System.out.println("Unary Operation");
+		System.out.println();
+		
+		System.out.println("Post Increment of a : " + a++);
+		System.out.println("Pre increment of a : " + ++a);
+		System.out.println("Post decrement of b : " + b--);
+		System.out.println("Pre decrement of b : " + --b);
+		System.out.println();
+		
+		System.out.println("logical operation");
+		System.out.println();
+		
+		System.out.println((a>b) && (b>c));
+		System.out.println((a<b) || (a>b));
+		System.out.println(!(a>b));
+		System.out.println();
+		
+		System.out.println("Relational operation");
+		System.out.println();
+		
+		System.out.println((a>b));
+		System.out.println((a==d));
+		System.out.println((b>d));
+		System.out.println();
+		
+		System.out.println("Teranary Operation");
+		System.out.println();
+		
+		Result = ((a+c)<50? "correct" : "incorrect");
+		System.out.println(Result);
+	}
+}
+output:
+Assignment Operation:
+
+Integer a value is = 30
+Integer b value is = 20
+Integer c value is = 15
+Integer d value is = 20
+
+Unary Operation
+
+Post Increment of a : 30
+Pre increment of a : 32
+Post decrement of b : 20
+Pre decrement of b : 18
+
+logical operation
+
+true
+true
+false
+
+Relational operation
+
+true
+false
+false
+
+Teranary Operation
+
+correct
+
+Conclusion : We have understood the program in java to use the Operators.
